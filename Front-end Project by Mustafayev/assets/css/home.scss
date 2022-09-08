@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top-side{
+    width: 100%;
+    background-color: black;
+
+    .container-fluid{
+        width: 95%;
+    }
+    .welcome{
+        border-right: 1px solid rgb(255, 255, 255);
+        height: 44px;
+        width: 178px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        span{
+            
+            color: white; 
+        }
+    }
+   
+    .language{
+        border-right: 1px solid rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        align-items: center;
+        .button1{
+         border-radius: 0px;
+         background-color: black;  
+         border: 0px; 
+         
+            
+      }
+    }
+
+    .country{
+        border-right: 1px solid rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        align-items: center;
+        .button2{
+            border-radius: 0px;
+            background-color: black;  
+            border: 0px; 
+                
+        }
+      
+      ul img{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          position: relative;
+          left: 10px;
+      }
+
+      ul li{
+          margin: 6px;
+      }
+
+      .usa-flex{
+          display: flex;
+      }
+
+      .nzd-flex{
+          display: flex;
+      }
+
+      .gmd-flex{
+          display: flex;
+      }
+
+      .ilr-flex{
+          display: flex;
+      }
+
+      .eur-flex{
+          display: flex;
+      }
+
+      .inr-flex{
+          display: flex;
+      }
+
+    }
+
+    .basket{
+        width: 46px;
+        height: 44px;
+        border-right: 1px solid white;
+        i{
+            color: white;
+            font-size: 20px;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+        }
+
+        .sup2{
+            background-color: rgb(218, 109, 20);
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            position: relative;
+            bottom: 19px;
+            left: 25px;
+            text-align: center;
+            align-items: center;
+
+            sup{
+                font-weight: bolder;
+                position: relative;
+                color: white;
+            }
+        }
+    }
+
+    .heart{
+        width: 46px;
+        height: 44px;
+        border-right: 1px solid white;
+        i{
+            color: white;
+            font-size: 20px;
+            position: relative;
+            top: 10px;
+            left: 12px;
+            cursor: pointer;
+        }
+
+        .sup1{
+            background-color: rgb(218, 109, 20);
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            position: relative;
+            bottom: 19px;
+            left: 25px;
+            text-align: center;
+            align-items: center;
+
+            sup{
+                font-weight: bolder;
+                position: relative;
+                color: white;
+            }
+        }
+
+
+    
+        
+    }
+    
+    .profile{
+        
+        border-right: 1px solid white;
+        
+        .button3{
+            background-color: black;
+            border: 0px;
+        }
+        
+        img{
+          border-radius: 50%;
+          width: 25px;
+          height: 25px;
+          position: relative;
+          left: 2px;
+          
+        }
+
+        .profile-i{
+            display: flex;
+        }
+
+        .account-i{
+            display: flex;
+        }
+
+        .message-i{
+            display: flex;
+        }
+
+        .logout-i{
+            display: flex;
+        }
+
+        i{
+            position: relative;
+            left: 10px;
+            top: 8px;
+            font-size: 20px;
+           
+        }
+
+    }
+
+
+}
+
+#logo-side{
+    
+    background-color: whitesmoke;
+
+    .container-fluid{
+        width: 95%;
+
+        .logo-embryo{
+            height: 120px;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-first{
+            height: 120px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-right: 93px;
+            input{
+                width: 750px;
+                height: 45px;
+                border: none;
+                outline: none;
+                padding-left: 15px;
+            }
+
+           
+            
+
+            .icon-search{
+                position: relative;
+                right: 33px;
+            }
+        }
+
+    }
+
+   
+}
+
